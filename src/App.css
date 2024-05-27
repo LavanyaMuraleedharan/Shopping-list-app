@@ -1,6 +1,4 @@
-/* App.css */
 
-/* General styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #d28686;
@@ -8,7 +6,6 @@ body {
   padding: 0;
 }
 
-/* App container */
 .App {
   max-width: 800px;
   margin: 40px auto;
@@ -18,7 +15,6 @@ body {
   border-radius: 10px;
 }
 
-/* Top component */
 .Top {
   text-align: center;
   margin-bottom: 30px;
@@ -30,7 +26,6 @@ body {
   color: #4a4a4a;
 }
 
-/* AddList component */
 .addForm {
   display: flex;
   justify-content: center;
@@ -78,7 +73,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Content component */
 .Content {
   list-style: none;
   padding: 0;
@@ -91,10 +85,10 @@ body {
   align-items: center;
   padding: 15px;
   border-bottom: 1px solid #eee;
-  background-color: #e9f7ef; /* Light green background for added items */
-  font-family:  'Roboto', sans-serif;; /* Change font */
-  color: #1b1b1b; /* Darker color for text */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+  background-color: #e9f7ef;
+  font-family:  'Roboto', sans-serif;
+  color: #1b1b1b; 
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .Content li:last-child {
@@ -102,7 +96,7 @@ body {
 }
 
 .Content li:hover {
-  background-color: #d4efdf; /* Slightly darker green on hover */
+  background-color: #d4efdf; 
 }
 
 .Content li span {
@@ -133,7 +127,6 @@ body {
   background-color: #c82333;
 }
 
-/* Footer component */
 .Footer {
   text-align: center;
   margin-top: 30px;
